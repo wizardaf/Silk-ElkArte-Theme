@@ -1,0 +1,177 @@
+/* Prepared by AdminForum.in */
+
+
+/* Footer colour change */
+
+.footer_section {
+    color: #BBB;
+    background: #222 none repeat scroll 0% 0%;
+    border-top: 6px solid #2526B7;
+    box-shadow: 0px -1px 0px #777, 0px 1px 0px #0E0E0E inset;
+}
+
+
+
+/* Google Font */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+.body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/* Blue starts */
+
+.menulevel2, .menulevel3 {
+	 position: absolute;
+	 top: 100%;
+	 left: -9999px;
+	 z-index: 90;
+	 margin: 0px;
+	 padding: 0.6em;
+	 width: 18.4em;
+	 background-color: white;
+}
+
+
+
+.forumposts .category_header, .content_category .category_header {
+	 border-top: none;
+	 border-bottom: none;
+	 background: #419EE3 none repeat scroll 0% 0%;
+}
+
+/* Breadcurmb */
+
+.linktree { 
+	background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,0.92) 47%, rgba(237,237,237,0.84) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,0.92)), color-stop(100%, rgba(237,237,237,0.84)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,0.92) 47%, rgba(237,237,237,0.84) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,0.92) 47%, rgba(237,237,237,0.84) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,0.92) 47%, rgba(237,237,237,0.84) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,0.92) 47%, rgba(237,237,237,0.84) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=1 );;
+}
+
+.linklevel1, .linklevel1:link, .linklevel1:visited {
+	 border-radius: 2px;
+	 border-width: 1px;
+	 -moz-border-top-colors: none;
+	 -moz-border-right-colors: none;
+	 -moz-border-bottom-colors: none;
+	 -moz-border-left-colors: none;
+	 border-image: none;
+	 color: #FFF;
+	 background: #00C0FF none repeat scroll 0% 0%;
+	 border-color: #00C0FF;
+}
+
+/* Vanish current board icon */
+
+
+/* Use font awesome as board icon */
+
+.board_icon .on_board {
+	font-family: "FontAwesome";
+	content: '\f07b';
+	position: relative;
+	top: 5px;
+	font-size: 2.7em;
+	opacity: 0.8;
+	color: #419EE3;
+	padding-right: 5px;
+}
+
+
+.board_icon .off_board {
+	font-family: "FontAwesome";
+	content: '\f07c';
+	position: relative;
+	top: 5px;
+	font-size: 2.7em;
+	opacity: 0.8;
+	color: #419EE3;
+	padding-right: 5px;
+}
+
+.board_icon .redirect_board {
+	font-family: "FontAwesome";
+	content: '\f08e';
+	position: relative;
+	top: 5px;
+	font-size: 2.7em;
+	opacity: 0.8;
+	color: #605E68;
+        padding-right: 5px;
+	
+}
+
+
+.new_some_board:before {
+	font-family: "FontAwesome";
+	content: '\f114';
+	position: relative;
+	top: 5px;
+	font-size: 2.7em;
+	opacity: 0.8;
+	color: #419EE3;
+	padding-right: 5px;
+}
+
+
+.new_none_board:before {
+	font-family: "FontAwesome";
+	content: '\f114';
+	position: relative;
+	top: 5px;
+	font-size: 2.7em;
+	opacity: 0.8;
+	color: #605E68;
+	padding-right: 5px;
+}
+
+.new_redirect_board:before {
+	font-family: "FontAwesome";
+	content: '\f08e';
+	position: relative;
+	top: 5px;
+	font-size: 2.7em;
+	opacity: 0.8;
+	color: #419EE3;
+        padding-right: 5px;
+	
+}
+
+
+
+
+/* change colour of " New " tag to blue */
+
+
+.new_posts, .new_posts:visited, .new_posts:link {
+    border-radius: 2px;
+    background: #F63030;
+    color: #FFF;
+}
+
+/* Post bit */
+
+.poster .name {
+   
+   color: black;
+
+}
+
+.poster .linklevel1 {
+
+    background: #fff;
+}
+
+/* Text color */
+
+a, a:link, a:visited, a.new_win:link, a.new_win:visited {
+    color: #3D4264;
+}
+
